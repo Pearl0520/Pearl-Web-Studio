@@ -3,88 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Explore a website concept by Pearl Web Studio and discuss a custom website for your business.">
+    <title>Portfolio | Pearl Web Studio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-
-        <nav>
+    <header class="site-header">
+        <a class="brand brand-logo" href="index.html" aria-label="Pearl Web Studio home">
+            <img src="images/Pearl%20Web%20Studio%20Logo%20Suite.png" alt="">
+            <span class="brand-wordmark">PEARL <span>WEB STUDIO</span></span>
+        </a>
+        <nav aria-label="Main navigation">
             <a href="index.html">Homepage</a>
             <a href="about.html">About Us</a>
             <a href="services.html">Services</a>
             <a href="pricing.html">Pricing</a>
-            <a href="portfolio.html">Portfolio</a>
+            <a class="current" href="portfolio.html" aria-current="page">Portfolio</a>
             <a href="process.html">How It Works</a>
             <a href="contact.html">Contact</a>
         </nav>
-
     </header>
 
     <main>
-        <section>
-            <h2>OUR PORTFOLIO</h2>
-            <h4>Ideas brought to life throuhg design and development.</h4>
+        <section class="portfolio-hero" aria-labelledby="portfolio-title">
+            <p class="eyebrow">SELECTED WORK</p>
+            <h1 id="portfolio-title">Ideas brought to life through design and development.</h1>
             <p>
-                Welcome to the Pearl Web Studio portfolio.
+                Explore a website concept from Pearl Web Studio and see how a clear,
+                thoughtful online presence can help a business connect with customers.
             </p>
-            <p>
-                Here you'll find examples of our website design and development work. Each 
-                project represents our approach to creating professional, responsive and 
-                user-friendly online experiences.
-            </p>
-
         </section>
 
-        <section>
-            <h3>FEATURED PROJECTS</h3>
-            <h4>Vhaluvhuu Automotive Repairs</h4>
-            <p>
-                category: Automotive Website
-            </p>
+        <section class="featured-project" aria-labelledby="featured-title">
+            <div class="project-preview" aria-hidden="true">
+                <div class="preview-browser">
+                    <div class="preview-browser-bar"><span></span><span></span><span></span><div>automotive website concept</div></div>
+                    <div class="automotive-preview">
+                        <div class="automotive-nav">
+                            <strong>VHALUVHUU <span>AUTOMOTIVE REPAIRS</span></strong>
+                            <i></i><i></i><i></i>
+                        </div>
+                        <div class="automotive-content">
+                            <p>RELIABLE AUTOMOTIVE CARE</p>
+                            <h2>Keeping you moving, mile after mile.</h2>
+                            <div class="preview-rule"></div>
+                            <div class="preview-cta">GET IN TOUCH</div>
+                        </div>
+                        <div class="automotive-services">
+                            <span>Vehicle servicing</span>
+                            <span>Repairs &amp; maintenance</span>
+                            <span>Customer enquiries</span>
+                        </div>
+                    </div>
+                </div>
+                <span class="preview-caption">AUTOMOTIVE WEBSITE CONCEPT</span>
+            </div>
 
-            <p>
-                A professional website concept designed for an automotive repair business.
-            </p>
-
-            <p>
-                The website focuses on presenting automotive services, introducing the business and
-                 making it easier for customers to submit enquiries.
-            </p>
-
-            <p>
-                Technologies: HTML, CSS and JavaScript.
-            </p>
-
-            <a href="">View Project</a>
-            
+            <div class="project-details">
+                <p class="eyebrow">FEATURED CONCEPT</p>
+                <h2 id="featured-title">Vhaluvhuu Automotive Repairs</h2>
+                <p class="project-intro">
+                    A professional website concept for an automotive repair business,
+                    designed to introduce the business and make its services easy to explore.
+                </p>
+                <div class="project-facts">
+                    <div>
+                        <h3>Project type</h3>
+                        <p>Automotive website concept</p>
+                    </div>
+                    <div>
+                        <h3>Project focus</h3>
+                        <p>Service information and customer enquiries</p>
+                    </div>
+                    <div>
+                        <h3>Technologies</h3>
+                        <p>HTML, CSS and JavaScript</p>
+                    </div>
+                </div>
+                <a class="portfolio-button" href="contact.html">Discuss a similar project <span aria-hidden="true">→</span></a>
+            </div>
         </section>
 
-        <section>
-            <h3>HAVE A PROJECT IN MIND?</h3>
-            <P>
-                Your business could be our next featured project.
-            </P>
+        <section class="approach-section" aria-labelledby="approach-title">
+            <div class="approach-heading">
+                <p class="eyebrow">DESIGNED WITH PURPOSE</p>
+                <h2 id="approach-title">What a useful business website can do</h2>
+            </div>
+            <div class="approach-grid">
+                <article>
+                    <span aria-hidden="true">01</span>
+                    <h3>Introduce your business</h3>
+                    <p>Give visitors a clear first impression and a simple way to understand what you do.</p>
+                </article>
+                <article>
+                    <span aria-hidden="true">02</span>
+                    <h3>Present your services</h3>
+                    <p>Organize your services so potential customers can find the details they need.</p>
+                </article>
+                <article>
+                    <span aria-hidden="true">03</span>
+                    <h3>Invite enquiries</h3>
+                    <p>Make it straightforward for people to ask a question or get in touch.</p>
+                </article>
+            </div>
+        </section>
 
-            <p>
-                Let's discuss your ideas and create a website that represents your brand.
-            </p>
-
-            <a href="">Start Your Project</a>
+        <section class="portfolio-cta" aria-labelledby="portfolio-cta-title">
+            <div>
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+                <h2 id="portfolio-cta-title">Your business could be our next featured project.</h2>
+                <p>Let's discuss your ideas and create a website that represents your brand.</p>
+            </div>
+            <a class="portfolio-button portfolio-button-light" href="contact.html">Start your project <span aria-hidden="true">→</span></a>
         </section>
     </main>
 
-    <footer>
-           <p>
-            PEARL WEB STUDIO
-        </p>
-        <P>
-            Your vision. Our code.
-        </P>     
-
-        <p>
-            &copy; Pearl Web Studio.
-            All rights reserved.
-        </p>
+    <footer class="site-footer">
+        <a class="brand" href="index.html">PEARL <span>WEB STUDIO</span></a>
+        <p>Your vision. Our code.</p>
+        <p>&copy; Pearl Web Studio. All rights reserved.</p>
     </footer>
 </body>
 </html>

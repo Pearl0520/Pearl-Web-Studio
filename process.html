@@ -3,34 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Learn what to expect when working with Pearl Web Studio, from your first enquiry through website handover.">
+    <title>How It Works | Pearl Web Studio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-
-        <nav>
+    <header class="site-header">
+        <a class="brand brand-logo" href="index.html" aria-label="Pearl Web Studio home">
+            <img src="images/Pearl%20Web%20Studio%20Logo%20Suite.png" alt="">
+            <span class="brand-wordmark">PEARL <span>WEB STUDIO</span></span>
+        </a>
+        <nav aria-label="Main navigation">
             <a href="index.html">Homepage</a>
             <a href="about.html">About Us</a>
             <a href="services.html">Services</a>
             <a href="pricing.html">Pricing</a>
             <a href="portfolio.html">Portfolio</a>
-            <a href="process.html">How It Works</a>
+            <a class="current" href="process.html" aria-current="page">How It Works</a>
             <a href="contact.html">Contact</a>
         </nav>
-
     </header>
 
-    <footer>
-        <p>
-            PEARL WEB STUDIO
-        </p>
-        <P>
-            Your vision. Our code.
-        </P>
-        <p>
-            &copy; Pearl Web Studio.
-            All rights reserved.
-        </p>
+    <main>
+        <section class="process-hero" aria-labelledby="process-title">
+            <p class="eyebrow">HOW IT WORKS</p>
+            <h1 id="process-title">Getting your business online, one step at a time.</h1>
+            <p>
+                We aim to make the website process clear and straightforward. Here's what
+                to expect when working with Pearl Web Studio.
+            </p>
+            <a class="process-button" href="contact.html">Start with a conversation <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="steps-section" aria-labelledby="steps-title">
+            <div class="process-section-heading">
+                <p class="eyebrow">YOUR PROJECT JOURNEY</p>
+                <h2 id="steps-title">From first enquiry to launch</h2>
+            </div>
+            <ol class="project-steps">
+                <li>
+                    <span class="step-number">01</span>
+                    <div>
+                        <h3>Tell us about your project</h3>
+                        <p>Share your business, goals and the type of website you need. If you're interested in an online store, tell us about your products and the features you have in mind.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-number">02</span>
+                    <div>
+                        <h3>Choose a suitable package</h3>
+                        <p>We'll help you compare options. E-commerce websites are priced at R7,500 - R8,500; payment gateway setup and provider fees may be additional.</p>
+                        <a href="pricing.html">Compare website packages <span aria-hidden="true">→</span></a>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-number">03</span>
+                    <div>
+                        <h3>Confirm the project</h3>
+                        <p>We'll agree on the project details, scope and timeline. A 50% deposit is required before development begins.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-number">04</span>
+                    <div>
+                        <h3>Design and development</h3>
+                        <p>We create your website based on the agreed requirements and keep you informed as the work progresses.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-number">05</span>
+                    <div>
+                        <h3>Review and agreed changes</h3>
+                        <p>You'll have an opportunity to review the website and request changes covered by the agreed project scope.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="step-number">06</span>
+                    <div>
+                        <h3>Final payment and launch</h3>
+                        <p>After approval, the remaining 50% is due before final handover. We'll complete the agreed testing and deployment and provide relevant handover information.</p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section class="prepare-section" aria-labelledby="prepare-title">
+            <div class="prepare-heading">
+                <p class="eyebrow">GETTING READY</p>
+                <h2 id="prepare-title">What to prepare for your project</h2>
+                <p>Having some of these details ready can help us understand what you need.</p>
+            </div>
+            <ul class="prepare-list">
+                <li>Your business name and logo, if available</li>
+                <li>A short description of your business</li>
+                <li>Your services or products</li>
+                <li>Contact information</li>
+                <li>Images you'd like to use</li>
+                <li>Your preferred website colours and style</li>
+                <li>Any additional features you need</li>
+            </ul>
+            <p class="prepare-note">Don't have everything ready? That's okay. We can discuss what you need.</p>
+        </section>
+
+        <section class="process-cta" aria-labelledby="process-cta-title">
+            <div>
+                <p class="eyebrow">READY TO GET STARTED?</p>
+                <h2 id="process-cta-title">Let's bring your vision online.</h2>
+                <p>Tell us about your ideas and we'll help you plan a website that represents your brand.</p>
+            </div>
+            <a class="process-button process-button-light" href="contact.html">Request a quote <span aria-hidden="true">→</span></a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand" href="index.html">PEARL <span>WEB STUDIO</span></a>
+        <p>Your vision. Our code.</p>
+        <p>&copy; Pearl Web Studio. All rights reserved.</p>
     </footer>
 </body>
 </html>

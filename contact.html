@@ -3,95 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Get in touch with Pearl Web Studio to discuss your website project or request a quote.">
+    <title>Contact Pearl Web Studio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-
-        <nav>
+    <header class="site-header">
+        <a class="brand brand-logo" href="index.html" aria-label="Pearl Web Studio home">
+            <img src="images/Pearl%20Web%20Studio%20Logo%20Suite.png" alt="">
+            <span class="brand-wordmark">PEARL <span>WEB STUDIO</span></span>
+        </a>
+        <nav aria-label="Main navigation">
             <a href="index.html">Homepage</a>
             <a href="about.html">About Us</a>
             <a href="services.html">Services</a>
             <a href="pricing.html">Pricing</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="process.html">How It Works</a>
-            <a href="contact.html">Contact</a>
+            <a class="current" href="contact.html" aria-current="page">Contact</a>
         </nav>
-
     </header>
 
     <main>
-        <section>
-            <h3>LET'S TALK ABOUT YOUR PROJECT</h3>
-            <h4>Let's build something great!</h4>
-
-            <p>
-                Have an idea for a website? Looking to improve your existing website? Or 
-                perhaps you need help getting your business online?
-            </p>
-
-            <p>
-                Pearl Web Studio would love to hear from you.
-            </p>
-
-            <p>
-                Tell us a little about your project, and we'll get back to you to 
-                discuss how we can help.
+        <section class="intro">
+            <p class="eyebrow">LET'S TALK ABOUT YOUR PROJECT</p>
+            <h1>Let's build something great.</h1>
+            <p class="intro-copy">
+                Have an idea for a website, or ready to take your business online?
+                Tell us a little about it and we'll get back to you.
             </p>
         </section>
 
-        <section>
-            <h3>REQUEST A WEBSITE QUOTE</h3>
-            <P>
-                Tell us a little about your project, and we'll get back to you to discuss how we can help.
-            </P>
-        </section>
+        <div class="contact-layout">
+            <section class="form-card" aria-labelledby="form-heading">
+                <p class="eyebrow">START A PROJECT</p>
+                <h2 id="form-heading">Request a website quote</h2>
+                <p class="form-intro">Share a few details so we can understand what you need.</p>
+                <p class="required-note"><span aria-hidden="true">*</span> Required fields</p>
 
-        <section>
-           <h3>Contact Us</h3>
+                <form id="project-enquiry">
+                    <div class="form-grid">
+                        <div class="field">
+                            <label for="name">Your name <span aria-hidden="true">*</span></label>
+                            <input id="name" name="name" type="text" autocomplete="name" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">Email address <span aria-hidden="true">*</span></label>
+                            <input id="email" name="email" type="email" autocomplete="email" required>
+                        </div>
+                        <div class="field">
+                            <label for="business">Business name <span class="optional">(optional)</span></label>
+                            <input id="business" name="business" type="text" autocomplete="organization">
+                        </div>
+                        <div class="field">
+                            <label for="project-type">What do you need? <span aria-hidden="true">*</span></label>
+                            <select id="project-type" name="projectType" required>
+                                <option value="" selected disabled>Select a service</option>
+                                <option>Business website</option>
+                                <option>E-commerce website / online store</option>
+                                <option>Portfolio website</option>
+                                <option>Landing page</option>
+                                <option>Website redesign</option>
+                                <option>Website maintenance</option>
+                                <option>Other / not sure yet</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="budget">Estimated budget <span class="optional">(optional)</span></label>
+                            <select id="budget" name="budget">
+                                <option value="" selected>Choose a range</option>
+                                <option>R1,500 - R2,500</option>
+                                <option>R2,500 - R4,000</option>
+                                <option>R5,000 - R7,500</option>
+                                <option>R7,500 - R8,500</option>
+                                <option>Over R8,500</option>
+                                <option>Not sure yet</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="timeline">When would you like to start? <span class="optional">(optional)</span></label>
+                            <select id="timeline" name="timeline">
+                                <option value="" selected>Choose a timeline</option>
+                                <option>As soon as possible</option>
+                                <option>Within a month</option>
+                                <option>In 1 - 3 months</option>
+                                <option>Just researching</option>
+                            </select>
+                        </div>
+                        <div class="field field-full">
+                            <label for="message">Tell us about your project <span aria-hidden="true">*</span></label>
+                            <textarea id="message" name="message" rows="5" required placeholder="What would you like your website to do? Include any features or questions you have."></textarea>
+                        </div>
+                    </div>
+                    <button class="submit-button" type="submit">Continue to WhatsApp <span aria-hidden="true">→</span></button>
+                    <p class="form-note">Your message will be prepared in WhatsApp. It is only sent after you review and send it there.</p>
+                </form>
+            </section>
 
-           <p>
+            <aside class="contact-sidebar">
+                <section class="info-card" aria-labelledby="contact-heading">
+                    <p class="eyebrow">GET IN TOUCH</p>
+                    <h2 id="contact-heading">Contact information</h2>
+                    <p class="info-label">Phone &amp; WhatsApp</p>
+                    <a class="contact-link" href="tel:+27834769653">083 476 9653</a>
+                    <a class="whatsapp-link" href="https://wa.me/27834769653" target="_blank" rel="noopener noreferrer">Chat with us on WhatsApp <span aria-hidden="true">↗</span></a>
+                    <p class="info-label hours-label">Business hours</p>
+                    <p class="hours">Monday - Sunday<br>12:00 - 23:30</p>
+                </section>
 
-           </p>
-        </section>
-
-        <section>
-            <h3>Contact Information</h3>
-            <p>
-                <strong>Phone:</strong>
-                083 476 9653
-            </p>
-            <p>
-                <strong>Email:</strong>
-                 info@ pearlwebstudio@gmail.com
-                </p>
-
-                <p>
-                    <strong>Business Hours</strong>
-                    Monday - Sunday: 12:00 - 23:30
-                </p>
-            
-        </section>
-        <section>
-            <h3>Our Location</h3>
-            <p>
-                1 Silver Close Albertsdal, Alberton 1448.
-            </p>
-        </section>
-        
+                <section class="map-card" aria-labelledby="location-heading">
+                    <div class="map-heading">
+                        <p class="eyebrow">FIND US</p>
+                        <h2 id="location-heading">Our location</h2>
+                        <address>1 Silver Close, Albertsdal,<br>Alberton 1448, South Africa</address>
+                    </div>
+                    <iframe
+                        title="Map showing 1 Silver Close, Albertsdal, Alberton 1448"
+                        src="https://maps.google.com/maps?q=1%20Silver%20Close%2C%20Albertsdal%2C%20Alberton%201448%2C%20South%20Africa&amp;output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen>
+                    </iframe>
+                    <a class="directions-link" href="https://www.google.com/maps/search/?api=1&amp;query=1%20Silver%20Close%2C%20Albertsdal%2C%20Alberton%201448%2C%20South%20Africa" target="_blank" rel="noopener noreferrer">Get directions <span aria-hidden="true">↗</span></a>
+                </section>
+            </aside>
+        </div>
     </main>
-        
-    <footer>
-        <p>
-            PEARL WEB STUDIO
-        </p>
-        <P>
-            Your vision. Our code.
-        </P>
-        <p>
-            &copy; Pearl Web Studio.
-            All rights reserved.
-        </p>
+
+    <footer class="site-footer">
+        <a class="brand" href="index.html">PEARL <span>WEB STUDIO</span></a>
+        <p>Your vision. Our code.</p>
+        <p>&copy; Pearl Web Studio. All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById("project-enquiry").addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const form = event.currentTarget;
+            const formData = new FormData(form);
+            const message = [
+                "Hello Pearl Web Studio, I'd like to enquire about a project.",
+                "",
+                "Name: " + formData.get("name"),
+                "Email: " + formData.get("email"),
+                "Business: " + (formData.get("business") || "Not provided"),
+                "Service: " + formData.get("projectType"),
+                "Budget: " + (formData.get("budget") || "Not provided"),
+                "Timeline: " + (formData.get("timeline") || "Not provided"),
+                "",
+                "Project details:",
+                formData.get("message")
+            ].join("\n");
+
+            const whatsappUrl = "https://wa.me/27834769653?text=" + encodeURIComponent(message);
+            window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+        });
+    </script>
 </body>
 </html>

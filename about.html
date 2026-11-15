@@ -3,130 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pearl Web Studio - About Us</title>
+    <meta name="description" content="Learn about Pearl Web Studio's mission to make professional, practical websites accessible to individuals and businesses.">
+    <title>About Pearl Web Studio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="site-header">
+        <a class="brand brand-logo" href="index.html" aria-label="Pearl Web Studio home">
+            <img src="images/Pearl%20Web%20Studio%20Logo%20Suite.png" alt="">
+            <span class="brand-wordmark">PEARL <span>WEB STUDIO</span></span>
+        </a>
+        <nav aria-label="Main navigation">
             <a href="index.html">Homepage</a>
-            <a href="about.html">About Us</a>
+            <a class="current" href="about.html" aria-current="page">About Us</a>
+            <details class="nav-faq-dropdown">
+                <summary>FAQs</summary>
+                <div class="nav-faq-menu">
+                    <details class="nav-faq-item">
+                        <summary>1. How much does a website cost?</summary>
+                        <div class="faq-answer"><p>Our website packages start at R1,500 for a one-page website. The final price depends on the package and any additional features you require.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>2. How long does it take to build a website?</summary>
+                        <div class="faq-answer"><p>The timeline depends on the size and complexity of the project. We'll provide an estimated completion date before development begins.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>3. Do I need to purchase a domain?</summary>
+                        <div class="faq-answer"><p>A domain is your website's unique internet address. We can assist you with registering and connecting a domain to your website.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>4. Do you offer website hosting?</summary>
+                        <div class="faq-answer"><p>Yes. We can assist with finding and setting up suitable hosting options depending on your website requirements.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>5. Will my website work on mobile phones?</summary>
+                        <div class="faq-answer"><p>Yes. We aim to create responsive websites that adjust to different screen sizes, including smartphones, tablets and computers.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>6. Can you redesign my existing website?</summary>
+                        <div class="faq-answer"><p>Yes. We offer website redesign services to improve the appearance, layout and functionality of existing websites.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>7. Do you offer website maintenance?</summary>
+                        <div class="faq-answer"><p>Yes. Our basic website maintenance service starts at R500 per month.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>8. Can I request additional features?</summary>
+                        <div class="faq-answer"><p>Yes. Additional features such as booking systems, payment integrations and other plugins can be discussed and quoted separately.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>9. How do payments work?</summary>
+                        <div class="faq-answer"><p>We require a 50% deposit before development begins. The remaining 50% is payable before the final website handover.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>10. Can I update my website after it has been completed?</summary>
+                        <div class="faq-answer"><p>Yes, depending on the platform and website setup. We can also assist with updates through our maintenance service.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>11. Do you work with startups and small businesses?</summary>
+                        <div class="faq-answer"><p>Absolutely! We work with individuals, entrepreneurs, startups and businesses looking to establish or improve their online presence.</p></div>
+                    </details>
+                    <details class="nav-faq-item">
+                        <summary>12. How do I get started?</summary>
+                        <div class="faq-answer"><p>Simply contact us through WhatsApp or our enquiry form. Tell us about your project, and we'll guide you through the next steps.</p></div>
+                    </details>
+                    <a class="nav-faq-contact" href="contact.html">Still have questions? Contact us.</a>
+                </div>
+            </details>
             <a href="services.html">Services</a>
             <a href="pricing.html">Pricing</a>
             <a href="portfolio.html">Portfolio</a>
             <a href="process.html">How It Works</a>
             <a href="contact.html">Contact</a>
         </nav>
-
     </header>
 
     <main>
-         
-        <section>
-
-            <h2>ABOUT PEARL WEB STUDIO</h2>
-            <P>
-                Turning ideas into professional online experiences.
-            </P>
-
+        <section class="about-hero" aria-labelledby="about-title">
+            <p class="eyebrow">ABOUT PEARL WEB STUDIO</p>
+            <h1 id="about-title">Your ideas deserve a place online.</h1>
             <p>
-                Pearl Web Studio is a web design and development business focused on
-                helping individuals, entrepreneurs and small businesses establish their 
-                online presence.
+                We create professional, practical websites that help individuals,
+                entrepreneurs and small businesses share what they do with the world.
             </p>
+        </section>
 
-            <p>
-                We believe that every business deserves an opportunity to be seen online. 
-                That's why we aim to provide modern, affordable and practical website 
-                solutions that allow businesses to showcase their services, connect with 
-                customers and build credibility.
-            </p>
+        <section class="about-story" aria-labelledby="story-title">
+            <div class="about-section-heading">
+                <p class="eyebrow">WHO WE ARE</p>
+                <h2 id="story-title">Making the web work for your business</h2>
+            </div>
+            <div class="story-copy">
+                <p>
+                    Pearl Web Studio is a web design and development business focused on
+                    helping people build a strong online presence. Whether you're starting
+                    with a simple landing page or need a complete business website, the goal
+                    is to create a site that fits your purpose and reflects your identity.
+                </p>
+                <p>
+                    A website should be useful as well as professional. We help clients
+                    present their services, connect with customers and make it easier for
+                    people to find out what they offer.
+                </p>
+            </div>
+        </section>
 
-            <p>
-            From simple landing pages to complete business websites, we work towards 
-            creating websites that reflect each client's identity and purpose.   
-            </p>
+        <section class="purpose-section" aria-label="Our mission and vision">
+            <article class="purpose-card">
+                <p class="eyebrow">OUR MISSION</p>
+                <h2>Professional websites within reach</h2>
+                <p>
+                    To create user-friendly, affordable websites that help individuals
+                    and businesses build a clear, confident online presence.
+                </p>
+            </article>
+            <article class="purpose-card purpose-card-highlight">
+                <p class="eyebrow">OUR VISION</p>
+                <h2>A trusted partner for growing online</h2>
+                <p>
+                    To be known for thoughtful design, reliable service and practical
+                    digital solutions for businesses at every stage.
+                </p>
+            </article>
+        </section>
 
-            <h2>OUR STORY</h2>
+        <section class="values-section" aria-labelledby="values-title">
+            <div class="about-section-heading">
+                <p class="eyebrow">WHAT MATTERS TO US</p>
+                <h2 id="values-title">The values behind every project</h2>
+                <p>Good work starts with understanding what matters to you and your customers.</p>
+            </div>
+            <div class="values-grid">
+                <article class="value-card">
+                    <span class="value-number" aria-hidden="true">01</span>
+                    <h3>Creativity</h3>
+                    <p>Design that reflects your brand, your ideas and the people you want to reach.</p>
+                </article>
+                <article class="value-card">
+                    <span class="value-number" aria-hidden="true">02</span>
+                    <h3>Clear communication</h3>
+                    <p>Open conversations about your needs, project details and next steps.</p>
+                </article>
+                <article class="value-card">
+                    <span class="value-number" aria-hidden="true">03</span>
+                    <h3>Practical value</h3>
+                    <p>Useful solutions and options designed around your goals and budget.</p>
+                </article>
+                <article class="value-card">
+                    <span class="value-number" aria-hidden="true">04</span>
+                    <h3>Reliability</h3>
+                    <p>Keeping you informed and working towards the agreed project plan.</p>
+                </article>
+                <article class="value-card">
+                    <span class="value-number" aria-hidden="true">05</span>
+                    <h3>Client-focused work</h3>
+                    <p>Your feedback and requirements guide the decisions we make together.</p>
+                </article>
+            </div>
+        </section>
 
-            <P>
-                Pearl Web Studio was created with a passion for technology, 
-                creativity and helping businesses grow.
-            </P>
-
-            <P>
-             We understand that starting or running a business comes with challenges, and 
-             having a professional website shouldn't feel out of reach.   
-            </P>
-
-            <P>
-                Our goal is to make website development more accessible by offering different 
-                website packages and additional digital services to suit different business needs.
-            </P>
-
-            <h3>OUR MISSION</h3>
-
-            <P>
-                To create professional, user-friendly and affordable websites that help individuals 
-                and businesses build a strong online presence.
-            </P>
-
-            <h3>OUR VISION</h3>
-
-            <P>
-                To become a trusted web development studio recognised for creativity, reliability, 
-                professionalism and accessible digital solutions
-            </P>
-
-            <h3>OUR VALUES</h3>
-
-            <P>
-                <ul>
-
-                    <li>Creativity: Every website should reflect the client's vision and identity.</li>
-                    <li>Professionalism: We take pride in the work we deliver and how we communicate with clients.</li>
-                    <li>Reliability: We aim to meet agreed deadlines and keep clients informed.</li>
-                    <li>Affordability: We believe professional websites should be accessible to businesses of different sizes.</li>
-                    <li>Customer satisfaction: We value our clients' ideas, feedback and requirements.</li>
-
-                </ul>
-
-            </P>
-
-            <h2>WHY WORK WITH US?</h2>
-
-            <p>
-                At Pearl Web Studio, we don't believe in one-size-fits-all solutions. We take the time 
-                to understand what you need and recommend a suitable website package.
-            </p>
-
-            <p>
-                 Whether you're an individual building a portfolio, a startup introducing a new brand or an established 
-             business looking to improve its online presence, we're here to help.
-            </p>
-
-            <h3>Your vision. Our code</h3>
-
-            <p>
-                Let's build something great together.
-            </p>
-
-            <a href="services.html">Explore Our Services</a>
-            <a href="contact.html">Contact Us</a>
-
+        <section class="about-cta" aria-labelledby="cta-title">
+            <div>
+                <p class="eyebrow">LET'S BUILD SOMETHING GREAT</p>
+                <h2 id="cta-title">Your vision. Our code.</h2>
+                <p>Tell us what you have in mind and let's find the right next step.</p>
+            </div>
+            <div class="cta-links">
+                <a class="cta-primary" href="contact.html">Start a conversation <span aria-hidden="true">→</span></a>
+                <a class="cta-secondary" href="services.html">Explore our services</a>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>
-            PEARL WEB STUDIO
-        </p>
-        <P>
-            Your vision. Our code.
-        </P>
-        <p>
-            &copy; Pearl Web Studio.
-            All rights reserved.
-        </p>
+    <footer class="site-footer">
+        <a class="brand" href="index.html">PEARL <span>WEB STUDIO</span></a>
+        <p>Your vision. Our code.</p>
+        <p>&copy; Pearl Web Studio. All rights reserved.</p>
     </footer>
 </body>
 </html>

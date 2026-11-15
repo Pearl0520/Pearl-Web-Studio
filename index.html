@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pearl Web Studio - homepage</title>
+    <meta name="description" content="Pearl Web Studio creates affordable, professional websites for small businesses, entrepreneurs and individuals.">
+    <title>Pearl Web Studio | Websites, Designs &amp; Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">Homepage</a>
+    <header class="site-header">
+        <a class="brand brand-logo" href="index.html" aria-label="Pearl Web Studio home">
+            <img src="images/Pearl%20Web%20Studio%20Logo%20Suite.png" alt="">
+            <span class="brand-wordmark">PEARL <span>WEB STUDIO</span></span>
+        </a>
+        <nav aria-label="Main navigation">
+            <a class="current" href="index.html" aria-current="page">Homepage</a>
             <a href="about.html">About Us</a>
             <a href="services.html">Services</a>
             <a href="pricing.html">Pricing</a>
@@ -16,96 +22,152 @@
             <a href="process.html">How It Works</a>
             <a href="contact.html">Contact</a>
         </nav>
-
     </header>
-    <h1>PEARL WEB STUDIO</h1>
+
     <main>
-        <section>
-            <h2>Websites | Designs | Solutions</h2>
-            <h2>Your vision. Our code.</h2>
-            <p>
-                A website that works for you.
-             </p>
-                
-            <p>
-                We build modern, affordable and professional 
-                websites that help businesses establish their online presence. From
-                website design and development to domain registration, 
-                hosting and additional online services, we provide Solutions
-                to help bring your ideas to life.
-            </p>    
+        <section class="home-hero" aria-labelledby="home-title">
+            <div class="hero-copy">
+                <p class="eyebrow">WEBSITES | DESIGNS | SOLUTIONS</p>
+                <h1 id="home-title">A website that works for your business.</h1>
+                <p class="hero-description">
+                    We build modern, affordable websites that help you show up online,
+                    share what you do and connect with your customers.
+                </p>
+                <div class="hero-actions">
+                    <a class="button-primary" href="contact.html">Tell us about your project <span aria-hidden="true">→</span></a>
+                    <a class="button-text" href="services.html">Explore our services</a>
+                </div>
+                <p class="hero-tagline">Your vision. Our code.</p>
+            </div>
 
-        <p>
-            Your business deserves more than just a social media page. 
-                Give it a website of its own.
-        </p>        
-           
+            <div class="hero-visual" aria-hidden="true">
+                <div class="browser-card">
+                    <div class="browser-top">
+                        <span></span><span></span><span></span>
+                        <div>yourbusiness.co.za</div>
+                    </div>
+                    <div class="site-preview">
+                        <div class="preview-brand">YOUR BRAND</div>
+                        <div class="preview-nav"><span></span><span></span><span></span></div>
+                        <div class="preview-kicker">WELCOME TO YOUR ONLINE HOME</div>
+                        <div class="preview-title">Good things start with a great first impression.</div>
+                        <div class="preview-line"></div>
+                        <div class="preview-button"></div>
+                        <div class="preview-cards"><span></span><span></span><span></span></div>
+                    </div>
+                </div>
+                <div class="visual-note"><span aria-hidden="true">✦</span> Made for your next step</div>
+            </div>
         </section>
 
-        <section>
-            <h2>WHAT WE OFFER</h2>
-
-            <p>
-                We provide practical digital solutions designed to help individuals,
-                entrepreneurs and businesses grow online.
-            </p>
-
-            <h3>Business Websites</h3>
-            <p>
-                Professional websites for small businesses, shops, 
-                salons, restuarants and more.
-            </p>
-
-            <h3>Portfolio Websites</h3>
-            <p>
-                Showcase your work, skills and brand with a clean modern design.
-            </p>
-
-            <h3>Landing Pages</h3>
-            <p>
-                Simple, effective one-page websites designed to promote your services, 
-                product or business.
-            </p>
-
-            <h3>Website Redesigns</h3>
-            <p>
-                Give your existing website a fresh, modern look and improved functionality.
-            </p>
-
-            <h3>Website Maintenance</h3>
-            <p>
-                Updates, fixes and ongoing support to keep your website 
-                running smoothly.
-            </p>
-
-            <h3>Online Enquiry Forms</h3>
-            <p>
-                Make it easier for potential customers to contact your 
-                business directly through your website.
-            </p>
-
-            <h3>Basic SEO</h3>
-            <p>
-                Help your website become more visible on search engines.
-            </p>
+        <section class="highlights" aria-label="What to expect">
+            <p><span aria-hidden="true">✦</span> Responsive design</p>
+            <p><span aria-hidden="true">✦</span> Options for different budgets</p>
+            <p><span aria-hidden="true">✦</span> Ongoing support</p>
         </section>
 
-        <section>
-           
+        <section class="services-section" aria-labelledby="services-title">
+            <div class="home-section-heading">
+                <div>
+                    <p class="eyebrow">WHAT WE OFFER</p>
+                    <h2 id="services-title">Practical websites and digital services.</h2>
+                </div>
+                <p>Solutions for individuals, entrepreneurs and businesses at every stage.</p>
+            </div>
+            <div class="service-grid">
+                <article class="service-card">
+                    <span class="service-icon" aria-hidden="true">01</span>
+                    <h3>Business &amp; e-commerce websites</h3>
+                    <p>Introduce your business, present your services or sell products through an online store.</p>
+                    <a href="services.html">Explore business and online stores <span aria-hidden="true">→</span></a>
+                </article>
+                <article class="service-card">
+                    <span class="service-icon" aria-hidden="true">02</span>
+                    <h3>Portfolio websites</h3>
+                    <p>Showcase your work, skills and experience with a clean modern design.</p>
+                    <a href="services.html">Explore portfolio sites <span aria-hidden="true">→</span></a>
+                </article>
+                <article class="service-card">
+                    <span class="service-icon" aria-hidden="true">03</span>
+                    <h3>Landing pages</h3>
+                    <p>Promote a service, product or business with a focused one-page website.</p>
+                    <a href="services.html">Explore landing pages <span aria-hidden="true">→</span></a>
+                </article>
+                <article class="service-card">
+                    <span class="service-icon" aria-hidden="true">04</span>
+                    <h3>Redesigns &amp; support</h3>
+                    <p>Refresh your site or get help with updates, enquiry forms and basic SEO.</p>
+                    <a href="services.html">See all services <span aria-hidden="true">→</span></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="price-banner" aria-labelledby="price-title">
+            <div>
+                <p class="eyebrow">WEBSITE PACKAGES</p>
+                <h2 id="price-title">A professional website from R1,500.</h2>
+                <p>Compare packages or ask about an e-commerce website, priced at R7,500 - R8,500.</p>
+            </div>
+            <a class="button-light" href="pricing.html">View pricing <span aria-hidden="true">→</span></a>
+        </section>
+
+        <section class="why-section" aria-labelledby="why-title">
+            <div class="home-section-heading">
+                <div>
+                    <p class="eyebrow">WHY PEARL WEB STUDIO</p>
+                    <h2 id="why-title">Thoughtful work, built around you.</h2>
+                </div>
+                <p>We aim to make the process clear and the result useful for your business.</p>
+            </div>
+            <div class="why-grid">
+                <article>
+                    <h3>Responsive design</h3>
+                    <p>Websites designed to work across mobile phones, tablets and computers.</p>
+                </article>
+                <article>
+                    <h3>Reliable communication</h3>
+                    <p>We work towards agreed deadlines and keep you updated throughout your project.</p>
+                </article>
+                <article>
+                    <h3>Ongoing support</h3>
+                    <p>Assistance is available for website updates and maintenance.</p>
+                </article>
+                <article>
+                    <h3>Budget-conscious options</h3>
+                    <p>Website packages and practical solutions for different needs and budgets.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="process-section" aria-labelledby="process-title">
+            <div class="home-section-heading">
+                <div>
+                    <p class="eyebrow">HOW WE WORK</p>
+                    <h2 id="process-title">From first conversation to launch.</h2>
+                </div>
+                <a class="button-text" href="process.html">See how it works <span aria-hidden="true">→</span></a>
+            </div>
+            <ol class="process-list">
+                <li><span>01</span><p>Tell us about your business and what you need.</p></li>
+                <li><span>02</span><p>Choose a suitable website package.</p></li>
+                <li><span>03</span><p>We design and develop your website.</p></li>
+                <li><span>04</span><p>Review the website and request agreed changes.</p></li>
+                <li><span>05</span><p>Your website is tested and prepared for launch.</p></li>
+            </ol>
+        </section>
+
+        <section class="home-cta" aria-labelledby="home-cta-title">
+            <p class="eyebrow">READY TO TAKE YOUR BUSINESS ONLINE?</p>
+            <h2 id="home-cta-title">Let's build something great.</h2>
+            <p>Whether you're starting a new business or improving an existing one, let's talk about your idea.</p>
+            <a class="button-primary" href="contact.html">Request a quote <span aria-hidden="true">→</span></a>
         </section>
     </main>
 
-    <footer>
-        <p>
-            PEARL WEB STUDIO
-        </p>
-        <P>
-            Your vision. Our code.
-        </P>
-        <p>
-            &copy; Pearl Web Studio.
-            All rights reserved.
-        </p>
+    <footer class="site-footer">
+        <a class="brand" href="index.html">PEARL <span>WEB STUDIO</span></a>
+        <p>Your vision. Our code.</p>
+        <p>&copy; Pearl Web Studio. All rights reserved.</p>
     </footer>
 </body>
 </html>
