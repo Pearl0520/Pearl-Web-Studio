@@ -6,6 +6,7 @@
     <meta name="description" content="Get in touch with Pearl Web Studio to discuss your website project or request a quote.">
     <title>Contact Pearl Web Studio</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="JavaScript/main.js" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -136,29 +137,5 @@
         <p>&copy; Pearl Web Studio. All rights reserved.</p>
     </footer>
 
-    <script>
-        document.getElementById("project-enquiry").addEventListener("submit", function (event) {
-            event.preventDefault();
-
-            const form = event.currentTarget;
-            const formData = new FormData(form);
-            const message = [
-                "Hello Pearl Web Studio, I'd like to enquire about a project.",
-                "",
-                "Name: " + formData.get("name"),
-                "Email: " + formData.get("email"),
-                "Business: " + (formData.get("business") || "Not provided"),
-                "Service: " + formData.get("projectType"),
-                "Budget: " + (formData.get("budget") || "Not provided"),
-                "Timeline: " + (formData.get("timeline") || "Not provided"),
-                "",
-                "Project details:",
-                formData.get("message")
-            ].join("\n");
-
-            const whatsappUrl = "https://wa.me/27834769653?text=" + encodeURIComponent(message);
-            window.open(whatsappUrl, "_blank", "noopener,noreferrer");
-        });
-    </script>
 </body>
 </html>

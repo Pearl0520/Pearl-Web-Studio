@@ -2164,6 +2164,14 @@ a:focus-visible {
     border-radius: 11px;
 }
 
+.service-image {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    height: auto;
+    margin: 1rem auto 0;
+}
+
 .service-number {
     display: inline-grid;
     width: 38px;
