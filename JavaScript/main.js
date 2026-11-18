@@ -22,6 +22,12 @@ if (projectEnquiryForm instanceof HTMLFormElement) {
         ].join("\n");
 
         const whatsappUrl = `https://wa.me/27834769653?text=${encodeURIComponent(message)}`;
-        window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+        const whatsappWindow = window.open(whatsappUrl, "_blank");
+
+        if (whatsappWindow) {
+            whatsappWindow.opener = null;
+        } else {
+            window.location.assign(whatsappUrl);
+        }
     });
 }
