@@ -16,6 +16,7 @@ if (projectEnquiryForm instanceof HTMLFormElement) {
             `Service: ${formData.get("projectType")}`,
             `Budget: ${formData.get("budget") || "Not provided"}`,
             `Timeline: ${formData.get("timeline") || "Not provided"}`,
+            "Terms & Conditions: accepted",
             "",
             "Project details:",
             formData.get("message")
