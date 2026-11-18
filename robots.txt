@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pearl0520.github.io/Pearl-Web-Studio/sitemap.xml

@@ -27,6 +27,8 @@ Pearl Web Studio is a responsive, multi-page website for presenting web design a
 ├── contact.html
 ├── privacy.html
 ├── terms.html
+├── robots.txt
+├── sitemap.xml
 ├── css/
 │   └── style.css
 ├── JavaScript/
@@ -62,6 +64,7 @@ The map on the Contact page is embedded from Google Maps and requires an interne
 - Add image files to `images/` and reference them with paths relative to the page, such as `images/example.jpg`.
 - If you add or rename a page, update the navigation links in the other pages as needed.
 - Keep each page's `<title>` and meta description accurate and unique when changing its content.
+- The sitemap and canonical/social-sharing URLs use the published GitHub Pages URL; update them if the site moves to a different domain.
 
 ## Notes
 
