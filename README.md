@@ -11,6 +11,8 @@ Pearl Web Studio is a responsive, multi-page website for presenting web design a
 - `portfolio.html` — Featured website concept
 - `process.html` — The project process
 - `contact.html` — Project enquiry form and contact details
+- `privacy.html` — Privacy notice for website visitors and enquiries
+- `terms.html` — Website-use and project Terms & Conditions
 
 ## Project structure
 
@@ -23,6 +25,8 @@ Pearl Web Studio is a responsive, multi-page website for presenting web design a
 ├── portfolio.html
 ├── process.html
 ├── contact.html
+├── privacy.html
+├── terms.html
 ├── css/
 │   └── style.css
 ├── JavaScript/
