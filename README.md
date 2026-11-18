@@ -36,7 +36,7 @@ Pearl Web Studio is a responsive, multi-page website for presenting web design a
     └── ...website and portfolio images
 ```
 
-The site uses HTML, CSS, and vanilla JavaScript. All pages share `css/style.css`; the contact page loads `JavaScript/main.js` to handle the enquiry form. Page images and the logo are stored in `images/`.
+The site uses HTML, CSS, and vanilla JavaScript. All pages share `css/style.css` and load `JavaScript/main.js` for the responsive navigation; the contact page also uses it to handle the enquiry form. Page images and the logo are stored in `images/`.
 
 ## Preview locally
 

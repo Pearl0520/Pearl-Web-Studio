@@ -1,5 +1,16 @@
 "use strict";
 
+const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
+const mainNavigation = document.getElementById("main-navigation");
+
+if (mobileNavToggle instanceof HTMLButtonElement && mainNavigation instanceof HTMLElement) {
+    mobileNavToggle.addEventListener("click", () => {
+        const isExpanded = mobileNavToggle.getAttribute("aria-expanded") === "true";
+        mobileNavToggle.setAttribute("aria-expanded", String(!isExpanded));
+        mainNavigation.classList.toggle("is-open", !isExpanded);
+    });
+}
+
 const projectEnquiryForm = document.getElementById("project-enquiry");
 
 if (projectEnquiryForm instanceof HTMLFormElement) {
